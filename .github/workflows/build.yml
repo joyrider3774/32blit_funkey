@@ -135,12 +135,11 @@ jobs:
         
       - name: Copy SDL2 and Directfb libs and files
         run: |
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/lib++dfb** ./opk/lib/
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libvorbisidec* ./opk/lib/
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libts* ./opk/lib/
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*SDL2* ./opk/lib/
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*fusion* ./opk/lib/
-          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*direct* ./opk/lib/
+          find /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/lib++dfb** -not -iname '*.a' -not -iname '*.la' -exec cp '{}' './opk/lib/' ';'
+          find /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libts* -not -iname '*.a' -not -iname '*.la' -exec cp '{}' './opk/lib/' ';'
+          find /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libSDL2* -not -iname '*.a' -not -iname '*.la' -not -iname '*_ttf*' -not -iname '*_mixer*' -not -iname '*_gfx*' -exec cp '{}' './opk/lib/' ';'
+          find /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*fusion* -not -iname '*.a' -not -iname '*.la' -exec cp '{}' './opk/lib/' ';'
+          find /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*direct* -not -iname '*.a' -not -iname '*.la' -exec cp '{}' './opk/lib/' ';'
           cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/directfb-1.7-7 ./opk/lib/
           cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/bin/dfb* ./opk/bin
           
