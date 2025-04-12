@@ -11,7 +11,7 @@ jobs:
       matrix:
         include:
           - { repo: 'ThePythonator/Super-Square-Bros',                output: 'Super-Square-Bros'} 
-          - { repo: 'ThePythonator/A-Pair-Of-Squares-32blit',         output: 'APairOfSquares'} 
+         # - { repo: 'ThePythonator/A-Pair-Of-Squares-32blit',         output: 'APairOfSquares'} 
           - { repo: 'ThePythonator/Jumpy-Squirrel',                   output: 'Jumpy-Squirrel'}
           - { repo: 'ahnlak-blit32/32blox',                           output: '32blox'} 
           - { repo: 'ahnlak-blit32/sokoblit',                         output: 'sokoblit'}
@@ -20,7 +20,7 @@ jobs:
           - { repo: 'lummi01/32Blit-Asteroids',                       output: 'asteroids'}
           - { repo: 'lummi01/32Blit-Cannonhead',                      output: 'cannonhead'}
           - { repo: 'lummi01/32Blit-Invader',                         output: 'invader'}
-          - { repo: 'lummi01/32Blit-Pitfall-Harry',                   output: 'cannonhead'}
+          - { repo: 'lummi01/32Blit-Pitfall-Harry',                   output: 'harry'}
           - { repo: 'lummi01/32Blit-SnakeRace',                       output: 'snake2'}
           - { repo: 'lummi01/32Blit-Save-the-Castle',                 output: 'castle'}
           - { repo: 'lummi01/32Blit-Indy500',                         output: 'indy'}
@@ -32,10 +32,10 @@ jobs:
           - { repo: 'lummi01/32Blit-Bounce',                          output: 'bounce'}
           - { repo: 'lummi01/32Blit-SimonSays',                       output: 'simon'}
           - { repo: 'lummi01/32Blit-Snake',                           output: 'Snake'}
-          - { repo: 'shane-powell/blit-boing',                        output: 'blitboing'}
+        #  - { repo: 'shane-powell/blit-boing',                        output: 'blitboing'}
           - { repo: 'shane-powell/blit-racers',                       output: 'blit-racers'}
-          - { repo: 'shane-powell/advanced-lawnmower-simulator-blit', output: 'als'} 
-          - { repo: 'shane-powell/powder-keg',                        output: 'powder-keg'}
+        #  - { repo: 'shane-powell/advanced-lawnmower-simulator-blit', output: 'als'} 
+        #  - { repo: 'shane-powell/powder-keg',                        output: 'powder-keg'}
           - { repo: 'Daft-Freak/fourblock-descent',                   output: 'fourblock-descent'}
           - { repo: 'Daft-Freak/super-blit-kart',                     output: 'blit-kart'}
           - { repo: '32blit/rocks-and-diamonds',                      output: 'rocks-and-diamonds'}
