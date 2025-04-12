@@ -7,6 +7,87 @@ Extract the download zip's which contain the opk files in the `Native games` fol
 
 Note: Some Games colors are not as intended / how they originally are, i have no idea whats causing this.
 
+## match3
+![match3](screenshot/match3.png)
+
+**Author**: [deckerego](https://github.com/deckerego)  
+**Repository**: [deckerego/picosystem-demo](https://github.com/deckerego/picosystem-demo)  
+**Download**: [match3 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/match3.-.32blit.-.Funkey-s.zip)
+
+---
+
+## dots
+![dots](screenshot/dots.png)
+
+**Author**: [Gadgetoid](https://github.com/Gadgetoid)  
+**Repository**: [Gadgetoid/32blit-dots](https://github.com/Gadgetoid/32blit-dots)  
+**Download**: [dots - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dots.-.32blit.-.Funkey-s.zip)
+
+---
+
+## amaze
+![amaze](screenshot/amaze.png)
+
+**Author**: [andreban](https://github.com/andreban)  
+**Repository**: [andreban/32blit-a-maze](https://github.com/andreban/32blit-a-maze)  
+**Download**: [amaze - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/amaze.-.32blit.-.Funkey-s.zip)
+
+---
+
+## armadillo
+![armadillo](screenshot/armadillo.png)
+
+**Author**: [felipemanga](https://github.com/felipemanga)  
+**Repository**: [felipemanga/Armadillo32Blit](https://github.com/felipemanga/Armadillo32Blit)  
+**Download**: [armadillo - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/armadillo.-.32blit.-.Funkey-s.zip)
+
+---
+
+## TowerDefense
+![TowerDefense](screenshot/TowerDefense.png)
+
+**Author**: [Blackhawk-TA](https://github.com/Blackhawk-TA)  
+**Repository**: [Blackhawk-TA/TowerDefense](https://github.com/Blackhawk-TA/TowerDefense)  
+**Download**: [TowerDefense - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/TowerDefense.-.32blit.-.Funkey-s.zip)
+
+---
+
+## Solitaire
+![Solitaire](screenshot/Solitaire.png)
+
+**Author**: [ThatOtherOtherBob](https://github.com/ThatOtherOtherBob)  
+**Repository**: [ThatOtherOtherBob/Solitaire](https://github.com/ThatOtherOtherBob/Solitaire)  
+**Download**: [Solitaire - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Solitaire.-.32blit.-.Funkey-s.zip)
+
+---
+
+## minesweeper
+![minesweeper](screenshot/minesweeper.png)
+
+**Author**: [ArtemHarkusha](https://github.com/ArtemHarkusha)  
+**Repository**: [ArtemHarkusha/minesweeper](https://github.com/ArtemHarkusha/32blit-minesweeper)  
+**Download**: [minesweeper - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/minesweeper.-.32blit.-.Funkey-s.zip)
+
+---
+
+## 2048
+![2048](screenshot/2048.png)
+
+**Author**: [ArtemHarkusha](https://github.com/ArtemHarkusha)  
+**Repository**: [ArtemHarkusha/2048](https://github.com/ArtemHarkusha/32blit-2048)  
+**Download**: [2048 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/2048.-.32blit.-.Funkey-s.zip)
+
+---
+
+## Ping
+![Ping](screenshot/Ping.png)
+
+**Author**: [ThePythonator](https://github.com/ThePythonator)  
+**Repository**: [ThePythonator/Ping](https://github.com/ThePythonator/Ping)  
+**Download**: [Ping - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Ping.-.32blit.-.Funkey-s.zip)
+
+---
+
 ## Super-Square-Bros
 ![Super-Square-Bros](screenshot/Super-Square-Bros.png)
 
