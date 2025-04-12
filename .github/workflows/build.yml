@@ -7,6 +7,7 @@ jobs:
   build:
     name: ${{ matrix.output }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - { repo: 'ThePythonator/Super-Square-Bros',                output: 'Super-Square-Bros'} 
