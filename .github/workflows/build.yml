@@ -65,8 +65,7 @@ jobs:
           - { repo: 'mikerr/32blit-games',                            output: 'jetpac',             dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'knightlore',         dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'willy',              dir: ''}
-          - { repo: 'mikerr/32blit-games',                            output: 'wakkawakka',         dir: ''}    
-          - { repo: 'mikerr/32blit-games',                            output: 'rookery',            dir: ''}    
+          - { repo: 'mikerr/32blit-games',                            output: 'wakkawakka',         dir: ''}
                              
           - { repo: '32blit/32blit-examples',                         output: 'geometry',           dir: ''}   
           - { repo: '32blit/32blit-examples',                         output: 'raycaster',          dir: ''}
