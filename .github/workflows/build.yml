@@ -43,7 +43,8 @@ jobs:
         # these will contain bins for all the games in the repo as subdir building did not work so be it  
           - { repo: 'mikerr/32blit-games',                            output: 'carsprint',          dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'dune2',              dir: ''}
-          - { repo: 'mikerr/32blit-games',                            output: 'jetman',             dir: ''}
+        # does build but does not boot on funkey 
+        #  - { repo: 'mikerr/32blit-games',                            output: 'jetman',             dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'jetpac',             dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'knightlore',         dir: ''}
           - { repo: 'mikerr/32blit-games',                            output: 'willy',              dir: ''}
@@ -52,7 +53,7 @@ jobs:
           - { repo: '32blit/32blit-examples',                         output: 'geometry',           dir: ''}   
           - { repo: '32blit/32blit-examples',                         output: 'raycaster',          dir: ''}
           - { repo: '32blit/32blit-examples',                         output: 'scrolly-tile',       dir: ''}
-          - { repo: '32blit/32blit-examples',                         output: 'shmup',              dir: ''}
+        #  - { repo: '32blit/32blit-examples',                         output: 'shmup',              dir: ''}
 
           
 
