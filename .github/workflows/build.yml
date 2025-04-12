@@ -9,10 +9,35 @@ jobs:
     strategy:
       matrix:
         include:
-          - { repo: 'ThePythonator/Super-Square-Bros',    output: 'Super-Square-Bros'}
-          - { repo: 'ahnlak-blit32/32blox',               output: '32blox'}
-          - { repo: 'lummi01/32Blit-4_in_a_row',          output: '4inrow'}
-          - { repo: 'lummi01/32Blit-AlienAttack',         output: 'alienattack'}
+          - { repo: 'ThePythonator/Super-Square-Bros',                output: 'Super-Square-Bros'} 
+          - { repo: 'ThePythonator/A-Pair-Of-Squares-32blit',         output: 'APairOfSquares'} 
+          - { repo: 'ThePythonator/Jumpy-Squirrel',                   output: 'Jumpy-Squirrel'}
+          - { repo: 'ahnlak-blit32/32blox',                           output: '32blox'} 
+          - { repo: 'ahnlak-blit32/sokoblit',                         output: 'sokoblit'}
+          - { repo: 'lummi01/32Blit-4_in_a_row',                      output: '4inrow'}
+          - { repo: 'lummi01/32Blit-AlienAttack',                     output: 'alienattack'}
+          - { repo: 'lummi01/32Blit-Asteroids',                       output: 'asteroids'}
+          - { repo: 'lummi01/32Blit-Cannonhead',                      output: 'cannonhead'}
+          - { repo: 'lummi01/32Blit-Invader',                         output: 'invader'}
+          - { repo: 'lummi01/32Blit-Pitfall-Harry',                   output: 'cannonhead'}
+          - { repo: 'lummi01/32Blit-SnakeRace',                       output: 'snake2'}
+          - { repo: 'lummi01/32Blit-Save-the-Castle',                 output: 'castle'}
+          - { repo: 'lummi01/32Blit-Indy500',                         output: 'indy'}
+          - { repo: 'lummi01/32Blit-MissileCommand',                  output: 'missile'}
+          - { repo: 'lummi01/32Blit-Dodgeem',                         output: 'dodgeem'}
+          - { repo: 'lummi01/32Blit-Tower',                           output: 'tower'}
+          - { repo: 'lummi01/32Blit-game-of-life',                    output: 'gol'}
+          - { repo: 'lummi01/32Blit-Dino',                            output: 'dino'}
+          - { repo: 'lummi01/32Blit-Bounce',                          output: 'bounce'}
+          - { repo: 'lummi01/32Blit-SimonSays',                       output: 'simon'}
+          - { repo: 'lummi01/32Blit-Snake',                           output: 'Snake'}
+          - { repo: 'shane-powell/blit-boing',                        output: 'blitboing'}
+          - { repo: 'shane-powell/blit-racers',                       output: 'blit-racers'}
+          - { repo: 'shane-powell/advanced-lawnmower-simulator-blit', output: 'als'} 
+          - { repo: 'shane-powell/powder-keg',                        output: 'powder-keg'}
+          - { repo: 'Daft-Freak/fourblock-descent',                   output: 'fourblock-descent'}
+          - { repo: 'Daft-Freak/super-blit-kart',                     output: 'blit-kart'}
+          - { repo: '32blit/rocks-and-diamonds',                      output: 'rocks-and-diamonds'}
     
     runs-on: ubuntu-latest
     steps:
@@ -125,5 +150,5 @@ jobs:
       - name: Store build
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.output }} - Funkey-s
+          name: ${{ matrix.output }} - 32blit - Funkey-s
           path: ${{ matrix.output }}.opk
