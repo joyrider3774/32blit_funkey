@@ -95,16 +95,16 @@ jobs:
           path: tmp
      
       - name: Create 32blit Build Environment
-        run: cmake -E make_directory ${{runner.workspace}}/tmp/${{runner.dir}}/build
+        run: cmake -E make_directory ${{runner.workspace}}/tmp/${{matrix.dir}}/build
         
       - name: Configure CMake 32blit
-        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
+        working-directory: ${{runner.workspace}}/tmp/${{matrix.dir}}/build
         run: |
           source ${{runner.workspace}}/32blit/bin/activate 
-          cmake $GITHUB_WORKSPACE/tmp/${{runner.dir}} -DCMAKE_BUILD_TYPE=Release -DCPACK_PACKAGE_FILE_NAME=${{ matrix.output}} -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/funkey_cmake/toolchainfile.cmake -DCMAKE_MODULE_PATH=$GITHUB_WORKSPACE/funkey_cmake/
+          cmake $GITHUB_WORKSPACE/tmp/${{matrix.dir}} -DCMAKE_BUILD_TYPE=Release -DCPACK_PACKAGE_FILE_NAME=${{ matrix.output}} -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/funkey_cmake/toolchainfile.cmake -DCMAKE_MODULE_PATH=$GITHUB_WORKSPACE/funkey_cmake/
       
       - name: Build 32blit game
-        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
+        working-directory: ${{runner.workspace}}/tmp/${{matrix.dir}}/build
         shell: bash
         run: |
           source ${{runner.workspace}}/32blit/bin/activate
@@ -117,7 +117,7 @@ jobs:
           mkdir opk/lib
      
       - name: Package for ${{matrix.output}} 32blit game
-        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
+        working-directory: ${{runner.workspace}}/tmp/${{matrix.dir}}/build
         run: |
           source ${{runner.workspace}}/32blit/bin/activate
           cmake --build . --config Release --target package
@@ -125,7 +125,7 @@ jobs:
       - name: Extract Package for ${{matrix.output}} 32blit game
         run: |
           cd opk
-          tar -xzvf ${{runner.workspace}}/tmp/${{runner.dir}}/build/${{ matrix.output }}.tar.gz
+          tar -xzvf ${{runner.workspace}}/tmp/${{matrix.dir}}/build/${{ matrix.output }}.tar.gz
           
       - name: Prepare desktopfile
         run: |
