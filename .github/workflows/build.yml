@@ -1,0 +1,129 @@
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually ftarget the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.output }}
+    strategy:
+      matrix:
+        include:
+          - { repo: 'ThePythonator/Super-Square-Bros',    output: 'Super-Square-Bros'}
+          - { repo: 'ahnlak-blit32/32blox',               output: '32blox'}
+          - { repo: 'lummi01/32Blit-4_in_a_row',          output: '4inrow'}
+          - { repo: 'lummi01/32Blit-AlienAttack',         output: 'alienattack'}
+    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+               
+      - name: get SDK
+        uses: wei/wget@v1
+        with:
+          args: -O funkey-sdk.tar.gz https://github.com/joyrider3774/sdks/releases/download/v1.0/funkey-sdk-sdl2.tar.gz
+
+      - name: setup SDK
+        run: |
+          tar -xzvf ./funkey-sdk.tar.gz
+          sudo mv ./funkey-sdk /opt/
+          cd /opt/funkey-sdk
+          ./relocate-sdk.sh
+      
+      - name: Checkout 32Blit sdk
+        uses: actions/checkout@v2
+        with:
+          repository: joyrider3774/32blit-sdk
+          path: 32blit-sdk
+          ref: funkey
+                
+      - name: setup 32blit extras
+        run: |
+          cd ${{runner.workspace}}
+          python3 -m venv 32blit
+          source ${{runner.workspace}}/32blit/bin/activate
+          python3 -m pip install setuptools
+          python3 -m pip install 32blit 
+          
+      - name: Checkout game sources sources
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+          repository: ${{matrix.repo}}
+          path: tmp
+     
+      - name: Create 32blit Build Environment
+        run: cmake -E make_directory ${{runner.workspace}}/tmp/build
+        
+      - name: Configure CMake 32blit
+        working-directory: ${{runner.workspace}}/tmp/build
+        run: |
+          source ${{runner.workspace}}/32blit/bin/activate 
+          cmake $GITHUB_WORKSPACE/tmp -DCMAKE_BUILD_TYPE=Release -DCPACK_PACKAGE_FILE_NAME=${{ matrix.output}} -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/funkey_cmake/toolchainfile.cmake -DCMAKE_MODULE_PATH=$GITHUB_WORKSPACE/funkey_cmake/
+      
+      - name: Build 32blit game
+        working-directory: ${{runner.workspace}}/tmp/build
+        shell: bash
+        run: |
+          source ${{runner.workspace}}/32blit/bin/activate
+          cmake --build . --config Release
+          
+      - name: prepare opk directory
+        run: |
+          mkdir opk
+          mkdir opk/bin
+          mkdir opk/lib
+     
+      - name: Package for ${{matrix.output}} 32blit game
+        working-directory: ${{runner.workspace}}/tmp/build
+        run: |
+          source ${{runner.workspace}}/32blit/bin/activate
+          cmake --build . --config Release --target package
+          
+      - name: Extract Package for ${{matrix.output}} 32blit game
+        run: |
+          cd opk
+          tar -xzvf ${{runner.workspace}}/tmp/build/${{ matrix.output }}.tar.gz
+          
+      - name: Prepare desktopfile
+        run: |
+          echo "[Desktop Entry]" > "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Name=${{ matrix.output }}" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Comment=${{ matrix.output }}" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Terminal=false" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Type=Application" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Exec=game.sh" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Icon=icon" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+          echo "Categories=games" >> "./opk/${{ matrix.output }}.funkey-s.desktop"
+             
+      - name: create game.sh general stuff
+        run: |
+          echo "#!/bin/sh" > "./opk/game.sh"
+          echo "export LD_LIBRARY_PATH=\"./lib:./lib/directfb-1.7-7:./lib/directfb-1.7-7/systems:./lib/directfb-1.7-7/wm:./lib/directfb-1.7-7/interfaces/IDirectFBFont:./lib/directfb-1.7-7/interfaces/IDirectFBImageProvider:./lib/directfb-1.7-7/interfaces/IDirectFBVideoProvider:./lib/directfb-1.7-7/inputdrivers:./lib/directfb-1.7-7/gfxdrivers:\$LD_LIBRARY_PATH\"" >> "./opk/game.sh"
+          echo "export PATH=\"./bin:\$PATH\"" >> "./opk/game.sh"
+          echo "export export D_ARGS=\"module-dir=./lib/directfb-1.7-7,system=fbdev,fbdev=/dev/fb0,no-linux-input-grab,no-cursor\"" >> "./opk/game.sh"
+          echo "unset AUDIODEV" >> "./opk/game.sh"
+          echo "./bin/${{ matrix.output }} --fullscreen" >> "./opk/game.sh"
+          chmod +x "./opk/game.sh"
+        
+      - name: Copy SDL2 and Directfb libs and files
+        run: |
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/lib++dfb** ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libvorbisidec* ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/libts* ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*SDL2* ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*fusion* ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/*direct* ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/lib/directfb-1.7-7 ./opk/lib/
+          cp -r /opt/funkey-sdk/arm-funkey-linux-musleabihf/sysroot/usr/bin/dfb* ./opk/bin
+          
+      - name: create opk
+        run: |
+          mksquashfs ./opk ${{ matrix.output }}.opk -all-root -noappend -no-exports -no-xattrs
+    
+      - name: Store build
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.output }} - Funkey-s
+          path: ${{ matrix.output }}.opk
