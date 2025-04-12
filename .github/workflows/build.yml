@@ -117,7 +117,35 @@ jobs:
           mkdir opk
           mkdir opk/bin
           mkdir opk/lib
-     
+      
+      - name: setup image magick
+        uses: mfinelli/setup-imagemagick@v6
+      
+      - name: prepape icon in opk directory
+        run: |
+          if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/icon.png" ]
+          then
+             magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/icon.png" -resize 32x32 opk/icon.png
+          else
+            if [ -f "$GITHUB_WORKSPACE/tmp/icon.png" ]
+            then
+              magick "$GITHUB_WORKSPACE/tmp/icon.png" -resize 32x32 opk/icon.png
+            else
+              if [ -f "$GITHUB_WORKSPACE/tmp/assets/icon.png" ]
+              then
+                magick "$GITHUB_WORKSPACE/tmp/assets/icon.png" -resize 32x32 opk/icon.png
+              else
+                if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/assets/icon.png" ]
+                then
+                  magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/assets/icon.png" -resize 32x32 opk/icon.png
+                else
+                  echo "icon not found!"
+                fi
+              fi
+            fi
+          fi
+         
+      
       - name: Package for ${{matrix.output}} 32blit game
         working-directory: ${{runner.workspace}}/tmp/${{matrix.dir}}/build
         run: |
