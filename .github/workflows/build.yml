@@ -125,21 +125,31 @@ jobs:
         run: |
           if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/icon.png" ]
           then
-             magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/icon.png" -resize 32x32 opk/icon.png
+             magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
           else
             if [ -f "$GITHUB_WORKSPACE/tmp/icon.png" ]
             then
-              magick "$GITHUB_WORKSPACE/tmp/icon.png" -resize 32x32 opk/icon.png
+              magick "$GITHUB_WORKSPACE/tmp/icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
             else
               if [ -f "$GITHUB_WORKSPACE/tmp/assets/icon.png" ]
               then
-                magick "$GITHUB_WORKSPACE/tmp/assets/icon.png" -resize 32x32 opk/icon.png
+                magick "$GITHUB_WORKSPACE/tmp/assets/icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
               else
                 if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/assets/icon.png" ]
                 then
-                  magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/assets/icon.png" -resize 32x32 opk/icon.png
+                  magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/assets/icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
                 else
-                  echo "icon not found!"
+                  if [ -f "$GITHUB_WORKSPACE/tmp/assets/${{matrix.output}}-icon.png" ]
+                  then
+                    magick "$GITHUB_WORKSPACE/tmp/assets/${{matrix.output}}-icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
+                  else
+                    if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/car-icon.png" ]
+                    then
+                      magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/car-icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
+                    else
+                      echo "icon not found!"
+                    fi
+                  fi
                 fi
               fi
             fi
