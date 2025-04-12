@@ -2,6 +2,10 @@
 
 A collection of [32blit](https://32blit.com/) games running through SDL2 on Funkey-S / RG-Nano.
 
+Extract the download zip's which contain the opk files in the `Native games` folder on your Funkey / RG-Nano (sdcard)
+
+Note: Some Games colors are not as intended / how they originally are, i have no idea whats causing this.
+
 ## Super-Square-Bros
 ![Super-Square-Bros](screenshot/Super-Square-Bros.png)
 
