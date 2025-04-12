@@ -10,36 +10,51 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { repo: 'ThePythonator/Super-Square-Bros',                output: 'Super-Square-Bros'} 
-         # - { repo: 'ThePythonator/A-Pair-Of-Squares-32blit',         output: 'APairOfSquares'} 
-          - { repo: 'ThePythonator/Jumpy-Squirrel',                   output: 'Jumpy-Squirrel'}
-          - { repo: 'ahnlak-blit32/32blox',                           output: '32blox'} 
-          - { repo: 'ahnlak-blit32/sokoblit',                         output: 'sokoblit'}
-          - { repo: 'lummi01/32Blit-4_in_a_row',                      output: '4inrow'}
-          - { repo: 'lummi01/32Blit-AlienAttack',                     output: 'alienattack'}
-          - { repo: 'lummi01/32Blit-Asteroids',                       output: 'asteroids'}
-          - { repo: 'lummi01/32Blit-Cannonhead',                      output: 'cannonhead'}
-          - { repo: 'lummi01/32Blit-Invader',                         output: 'invader'}
-          - { repo: 'lummi01/32Blit-Pitfall-Harry',                   output: 'harry'}
-          - { repo: 'lummi01/32Blit-SnakeRace',                       output: 'snake2'}
-          - { repo: 'lummi01/32Blit-Save-the-Castle',                 output: 'castle'}
-          - { repo: 'lummi01/32Blit-Indy500',                         output: 'indy'}
-          - { repo: 'lummi01/32Blit-MissileCommand',                  output: 'missile'}
-          - { repo: 'lummi01/32Blit-Dodgeem',                         output: 'dodgeem'}
-          - { repo: 'lummi01/32Blit-Tower',                           output: 'tower'}
-          - { repo: 'lummi01/32Blit-game-of-life',                    output: 'gol'}
-          - { repo: 'lummi01/32Blit-Dino',                            output: 'dino'}
-          - { repo: 'lummi01/32Blit-Bounce',                          output: 'bounce'}
-          - { repo: 'lummi01/32Blit-SimonSays',                       output: 'simon'}
-          - { repo: 'lummi01/32Blit-Snake',                           output: 'Snake'}
-        #  - { repo: 'shane-powell/blit-boing',                        output: 'blitboing'}
-          - { repo: 'shane-powell/blit-racers',                       output: 'blit-racers'}
-        #  - { repo: 'shane-powell/advanced-lawnmower-simulator-blit', output: 'als'} 
-        #  - { repo: 'shane-powell/powder-keg',                        output: 'powder-keg'}
-          - { repo: 'Daft-Freak/fourblock-descent',                   output: 'fourblock-descent'}
-          - { repo: 'Daft-Freak/super-blit-kart',                     output: 'blit-kart'}
-          - { repo: '32blit/rocks-and-diamonds',                      output: 'rocks-and-diamonds'}
-    
+          - { repo: 'ThePythonator/Super-Square-Bros',                output: 'Super-Square-Bros',  dir: ''} 
+         # - { repo: 'ThePythonator/A-Pair-Of-Squares-32blit',         output: 'APairOfSquares',     dir: ''} 
+          - { repo: 'ThePythonator/Jumpy-Squirrel',                   output: 'Jumpy-Squirrel',     dir: ''}
+          - { repo: 'ahnlak-blit32/32blox',                           output: '32blox',             dir: ''} 
+          - { repo: 'ahnlak-blit32/sokoblit',                         output: 'sokoblit',           dir: ''}
+          - { repo: 'lummi01/32Blit-4_in_a_row',                      output: '4inrow',             dir: ''}
+          - { repo: 'lummi01/32Blit-AlienAttack',                     output: 'alienattack',        dir: ''}
+          - { repo: 'lummi01/32Blit-Asteroids',                       output: 'asteroids',          dir: ''}
+          - { repo: 'lummi01/32Blit-Cannonhead',                      output: 'cannonhead',         dir: ''}
+          - { repo: 'lummi01/32Blit-Invader',                         output: 'invader',            dir: ''}
+          - { repo: 'lummi01/32Blit-Pitfall-Harry',                   output: 'harry',              dir: ''}
+          - { repo: 'lummi01/32Blit-SnakeRace',                       output: 'snake2',             dir: ''}
+          - { repo: 'lummi01/32Blit-Save-the-Castle',                 output: 'castle',             dir: ''}
+          - { repo: 'lummi01/32Blit-Indy500',                         output: 'indy',               dir: ''}
+          - { repo: 'lummi01/32Blit-MissileCommand',                  output: 'missile',            dir: ''}
+          - { repo: 'lummi01/32Blit-Dodgeem',                         output: 'dodgeem',            dir: ''}
+          - { repo: 'lummi01/32Blit-Tower',                           output: 'tower',              dir: ''}
+          - { repo: 'lummi01/32Blit-game-of-life',                    output: 'gol',                dir: ''}
+          - { repo: 'lummi01/32Blit-Dino',                            output: 'dino',               dir: ''}
+          - { repo: 'lummi01/32Blit-Bounce',                          output: 'bounce',             dir: ''}
+          - { repo: 'lummi01/32Blit-SimonSays',                       output: 'simon',              dir: ''}
+          - { repo: 'lummi01/32Blit-Snake',                           output: 'Snake',              dir: ''}
+        #  - { repo: 'shane-powell/blit-boing',                        output: 'blitboing',          dir: ''}
+          - { repo: 'shane-powell/blit-racers',                       output: 'blit-racers',        dir: ''}
+        #  - { repo: 'shane-powell/advanced-lawnmower-simulator-blit', output: 'als',                dir: ''} 
+        #  - { repo: 'shane-powell/powder-keg',                        output: 'powder-keg',         dir: ''}
+          - { repo: 'Daft-Freak/fourblock-descent',                   output: 'fourblock-descent',  dir: ''}
+          - { repo: 'Daft-Freak/super-blit-kart',                     output: 'blit-kart',          dir: ''}
+          - { repo: '32blit/rocks-and-diamonds',                      output: 'rocks-and-diamonds', dir: ''}
+          
+          - { repo: 'mikerr/32blit-games',                            output: 'carsprint',          dir: 'carsprint'}
+          - { repo: 'mikerr/32blit-games',                            output: 'dune2',              dir: 'dune2'}
+          - { repo: 'mikerr/32blit-games',                            output: 'jetman',             dir: 'jetman'}
+          - { repo: 'mikerr/32blit-games',                            output: 'jetpac',             dir: 'jetpac'}
+          - { repo: 'mikerr/32blit-games',                            output: 'knightlore',         dir: 'knightlore'}
+          - { repo: 'mikerr/32blit-games',                            output: 'willy',              dir: 'willy'}
+          - { repo: 'mikerr/32blit-games',                            output: 'wakkawakka',         dir: 'wakkawakka'}    
+          
+          - { repo: '32blit/32blit-examples',                         output: 'geometry',           dir: 'geometry'}   
+          - { repo: '32blit/32blit-examples',                         output: 'raycaster',          dir: 'raycaster'}
+          - { repo: '32blit/32blit-examples',                         output: 'scrolly-tile',       dir: 'scrolly-tile'}
+          - { repo: '32blit/32blit-examples',                         output: 'shmup',              dir: 'shmup'}
+
+          
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -80,16 +95,16 @@ jobs:
           path: tmp
      
       - name: Create 32blit Build Environment
-        run: cmake -E make_directory ${{runner.workspace}}/tmp/build
+        run: cmake -E make_directory ${{runner.workspace}}/tmp/${{runner.dir}}/build
         
       - name: Configure CMake 32blit
-        working-directory: ${{runner.workspace}}/tmp/build
+        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
         run: |
           source ${{runner.workspace}}/32blit/bin/activate 
-          cmake $GITHUB_WORKSPACE/tmp -DCMAKE_BUILD_TYPE=Release -DCPACK_PACKAGE_FILE_NAME=${{ matrix.output}} -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/funkey_cmake/toolchainfile.cmake -DCMAKE_MODULE_PATH=$GITHUB_WORKSPACE/funkey_cmake/
+          cmake $GITHUB_WORKSPACE/tmp/${{runner.dir}} -DCMAKE_BUILD_TYPE=Release -DCPACK_PACKAGE_FILE_NAME=${{ matrix.output}} -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/funkey_cmake/toolchainfile.cmake -DCMAKE_MODULE_PATH=$GITHUB_WORKSPACE/funkey_cmake/
       
       - name: Build 32blit game
-        working-directory: ${{runner.workspace}}/tmp/build
+        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
         shell: bash
         run: |
           source ${{runner.workspace}}/32blit/bin/activate
@@ -102,7 +117,7 @@ jobs:
           mkdir opk/lib
      
       - name: Package for ${{matrix.output}} 32blit game
-        working-directory: ${{runner.workspace}}/tmp/build
+        working-directory: ${{runner.workspace}}/tmp/${{runner.dir}}/build
         run: |
           source ${{runner.workspace}}/32blit/bin/activate
           cmake --build . --config Release --target package
@@ -110,7 +125,7 @@ jobs:
       - name: Extract Package for ${{matrix.output}} 32blit game
         run: |
           cd opk
-          tar -xzvf ${{runner.workspace}}/tmp/build/${{ matrix.output }}.tar.gz
+          tar -xzvf ${{runner.workspace}}/tmp/${{runner.dir}}/build/${{ matrix.output }}.tar.gz
           
       - name: Prepare desktopfile
         run: |
