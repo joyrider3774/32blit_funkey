@@ -1,4 +1,5 @@
 # 32blit Games Collection for Funkey-S / RG-Nano.
+![DownloadCountTotal](https://img.shields.io/github/downloads/joyrider3774/32blit_funkey/total?label=total%20downloads&style=plastic) ![DownloadCountLatest](https://img.shields.io/github/downloads/joyrider3774/32blit_funkey/latest/total?style=plastic) ![LatestVersion](https://img.shields.io/github/v/tag/joyrider3774/32blit_funkey?label=Latest%20version&style=plastic) ![License](https://img.shields.io/github/license/joyrider3774/32blit_funkey?style=plastic)
 
 A collection of [32blit](https://32blit.com/) games running through SDL2 on Funkey-S / RG-Nano.
 
