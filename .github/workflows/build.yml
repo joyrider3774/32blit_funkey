@@ -151,7 +151,17 @@ jobs:
                       then
                         magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/${{matrix.output}}-icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
                       else
-                        echo "icon not found!"
+                        if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/rainbow-ascent-icon.png" ]
+                        then
+                          magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/rainbow-ascent-icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
+                        else
+                          if [ -f "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/jetman-icon.png" ]
+                          then
+                            magick "$GITHUB_WORKSPACE/tmp/${{matrix.output}}/jetman-icon.png" -interpolate Integer -filter point -resize 32x32 opk/icon.png
+                          else
+                            echo "icon not found!"
+                          fi
+                        fi
                       fi
                     fi
                   fi
