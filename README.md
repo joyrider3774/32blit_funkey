@@ -7,7 +7,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [ThePythonator](https://github.com/ThePythonator)  
 **Repository**: [ThePythonator/Super-Square-Bros](https://github.com/ThePythonator/Super-Square-Bros)  
-**Download**: [Super-Square-Bros - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Super-Square-Bros%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [Super-Square-Bros - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Super-Square-Bros.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -16,7 +16,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [ThePythonator](https://github.com/ThePythonator)  
 **Repository**: [ThePythonator/Jumpy-Squirrel](https://github.com/ThePythonator/Jumpy-Squirrel)  
-**Download**: [Jumpy-Squirrel - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Jumpy-Squirrel%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [Jumpy-Squirrel - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Jumpy-Squirrel.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -25,7 +25,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [ahnlak-blit32](https://github.com/ahnlak-blit32)  
 **Repository**: [ahnlak-blit32/32blox](https://github.com/ahnlak-blit32/32blox)  
-**Download**: [32blox - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/32blox%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [32blox - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/32blox.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -34,7 +34,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [ahnlak-blit32](https://github.com/ahnlak-blit32)  
 **Repository**: [ahnlak-blit32/sokoblit](https://github.com/ahnlak-blit32/sokoblit)  
-**Download**: [sokoblit - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/sokoblit%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [sokoblit - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/sokoblit.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -43,7 +43,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-4_in_a_row](https://github.com/lummi01/32Blit-4_in_a_row)  
-**Download**: [4inrow - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/4inrow%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [4inrow - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/4inrow.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -52,7 +52,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-AlienAttack](https://github.com/lummi01/32Blit-AlienAttack)  
-**Download**: [alienattack - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/alienattack%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [alienattack - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/alienattack.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -61,7 +61,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Asteroids](https://github.com/lummi01/32Blit-Asteroids)  
-**Download**: [asteroids - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/asteroids%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [asteroids - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/asteroids.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -70,7 +70,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Cannonhead](https://github.com/lummi01/32Blit-Cannonhead)  
-**Download**: [cannonhead - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/cannonhead%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [cannonhead - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/cannonhead.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -79,7 +79,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Invader](https://github.com/lummi01/32Blit-Invader)  
-**Download**: [invader - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/invader%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [invader - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/invader.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -88,7 +88,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Pitfall-Harry](https://github.com/lummi01/32Blit-Pitfall-Harry)  
-**Download**: [harry - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/harry%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [harry - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/harry.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -97,7 +97,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-SnakeRace](https://github.com/lummi01/32Blit-SnakeRace)  
-**Download**: [snake2 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/snake2%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [snake2 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/snake2.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -106,7 +106,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Save-the-Castle](https://github.com/lummi01/32Blit-Save-the-Castle)  
-**Download**: [castle - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/castle%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [castle - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/castle.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -115,7 +115,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Indy500](https://github.com/lummi01/32Blit-Indy500)  
-**Download**: [indy - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/indy%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [indy - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/indy.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -124,7 +124,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-MissileCommand](https://github.com/lummi01/32Blit-MissileCommand)  
-**Download**: [missile - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/missile%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [missile - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/missile.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -133,7 +133,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Dodgeem](https://github.com/lummi01/32Blit-Dodgeem)  
-**Download**: [dodgeem - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dodgeem%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [dodgeem - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dodgeem.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -142,7 +142,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Tower](https://github.com/lummi01/32Blit-Tower)  
-**Download**: [tower - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/tower%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [tower - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/tower.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -151,7 +151,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-game-of-life](https://github.com/lummi01/32Blit-game-of-life)  
-**Download**: [gol - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/gol%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [gol - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/gol.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -160,7 +160,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Dino](https://github.com/lummi01/32Blit-Dino)  
-**Download**: [dino - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dino%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [dino - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dino.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -169,7 +169,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Bounce](https://github.com/lummi01/32Blit-Bounce)  
-**Download**: [bounce - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/bounce%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [bounce - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/bounce.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -178,7 +178,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-SimonSays](https://github.com/lummi01/32Blit-SimonSays)  
-**Download**: [simon - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/simon%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [simon - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/simon.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -187,7 +187,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [lummi01](https://github.com/lummi01)  
 **Repository**: [lummi01/32Blit-Snake](https://github.com/lummi01/32Blit-Snake)  
-**Download**: [Snake - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Snake%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [Snake - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/Snake.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -196,7 +196,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [shane-powell](https://github.com/shane-powell)  
 **Repository**: [shane-powell/blit-racers](https://github.com/shane-powell/blit-racers)  
-**Download**: [blit-racers - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/blit-racers%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [blit-racers - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/blit-racers.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -205,7 +205,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [Daft-Freak](https://github.com/Daft-Freak)  
 **Repository**: [Daft-Freak/fourblock-descent](https://github.com/Daft-Freak/fourblock-descent)  
-**Download**: [fourblock-descent - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/fourblock-descent%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [fourblock-descent - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/fourblock-descent.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -214,7 +214,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [Daft-Freak](https://github.com/Daft-Freak)  
 **Repository**: [Daft-Freak/super-blit-kart](https://github.com/Daft-Freak/super-blit-kart)  
-**Download**: [blit-kart - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/blit-kart%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [blit-kart - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/blit-kart.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -223,7 +223,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [32blit](https://github.com/32blit)  
 **Repository**: [32blit/rocks-and-diamonds](https://github.com/32blit/rocks-and-diamonds)  
-**Download**: [rocks-and-diamonds - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/rocks-and-diamonds%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [rocks-and-diamonds - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/rocks-and-diamonds.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -232,7 +232,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [carsprint - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/carsprint%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [carsprint - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/carsprint.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -241,7 +241,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [dune2 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dune2%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [dune2 - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/dune2.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -250,7 +250,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [jetpac - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/jetpac%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [jetpac - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/jetpac.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -259,7 +259,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [knightlore - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/knightlore%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [knightlore - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/knightlore.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -268,7 +268,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [willy - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/willy%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [willy - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/willy.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -277,7 +277,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [mikerr](https://github.com/mikerr)  
 **Repository**: [mikerr/32blit-games](https://github.com/mikerr/32blit-games)  
-**Download**: [wakkawakka - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/wakkawakka%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [wakkawakka - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/wakkawakka.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -286,7 +286,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [32blit](https://github.com/32blit)  
 **Repository**: [32blit/32blit-examples](https://github.com/32blit/32blit-examples)  
-**Download**: [geometry - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/geometry%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [geometry - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/geometry.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -295,7 +295,7 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [32blit](https://github.com/32blit)  
 **Repository**: [32blit/32blit-examples](https://github.com/32blit/32blit-examples)  
-**Download**: [raycaster - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/raycaster%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [raycaster - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/raycaster.-.32blit.-.Funkey-s.zip)
 
 ---
 
@@ -304,4 +304,4 @@ A collection of [32blit](https://32blit.com/) games running through SDL2 on Funk
 
 **Author**: [32blit](https://github.com/32blit)  
 **Repository**: [32blit/32blit-examples](https://github.com/32blit/32blit-examples)  
-**Download**: [scrolly-tile - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/scrolly-tile%20-%2032blit%20-%20Funkey-s.zip)
+**Download**: [scrolly-tile - 32blit - Funkey-s.zip](https://github.com/joyrider3774/32blit_funkey/releases/latest/download/scrolly-tile.-.32blit.-.Funkey-s.zip)
